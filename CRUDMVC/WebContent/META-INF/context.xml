@@ -1,0 +1,18 @@
+<Context>
+<Resource name="jdbc/mvcdemo" 
+  			
+auth="Container" 
+type="javax.sql.DataSource"
+               
+maxActive="20" 
+maxIdle="5" 
+maxWait="10000"
+               
+username="root" 
+password="komal" 
+               
+driverClassName="com.mysql.jdbc.Driver"
+               
+url="jdbc:mysql://127.0.0.1:3306/mvcdemo?useSSL=false&amp;serverTimezone=UTC"/>
+
+</Context>
